@@ -136,10 +136,7 @@ const About = () => {
                         />
                       </div>
                       <div className="counter-content">
-                        <h3
-                          className="title odometer"
-                          data-odometer-final={30}
-                        />
+                        <h3 className="title odometer" data-odometer-final={30} ></h3>
                         <h3 className="title">M+</h3>
                       </div>
                       <span className="d-block info">Customers</span>

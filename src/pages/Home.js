@@ -1,5 +1,4 @@
 //  iMPORT area
-import { Button } from "bootstrap";
 import React, { useReducer } from "react";
 
 // function Defination area
@@ -39,7 +38,6 @@ let initialState = {
                     })
                 ]
             }
-            console.log("remove")
             break;
         case "ADD_MOVIE":
             console.log("ADD")
