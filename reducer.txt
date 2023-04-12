@@ -1,0 +1,7 @@
+What is reducer Functionn 
+ 
+	reducer function is a function which takes two arguments 
+	1. state/initialState
+	2. Action
+	
+	And it will return the new data  

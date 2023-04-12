@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -13,22 +14,20 @@ const Header = () => {
               </div>
             </div>
           </div> */}
-          {/* ==========Preloader========== */}
-          {/* ==========Overlay========== */}
           {/* <div className="overlay" /> */}
           
-          <a href="/#0" className="scrollToTop">
+          <Link to="/" className="scrollToTop">
             <i className="fas fa-angle-up" />
-          </a>
-          {/* ==========Overlay========== */}
-          {/* ==========Header-Section========== */}
+          </Link>
+         
+         
           <header className="header-section">
             <div className="container">
               <div className="header-wrapper">
                 <div className="logo">
-                  <a href="/">
+                  <Link to="/">
                     <img src="assets/images/logo/logo.png" alt="logo" />
-                  </a>
+                  </Link>
                 </div>
                 <Navigation />
                 <div className="header-bar d-lg-none">

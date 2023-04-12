@@ -10,6 +10,10 @@ import MovieList from './pages/MovieList';
 import MovieDetails from './pages/MovieDetails';
 import MovieDetails2 from './pages/MovieDetails2';
 import MovieTicketPlan from './pages/MovieTicketPlan';
+import MovieSeatPlan from './pages/MovieSeatPlan';
+import MovieCheckout from './pages/MovieCheckout';
+import PopCorn from './pages/PopCorn';
+import About from './pages/About';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
           <Route path='movie-details' element={<MovieDetails />}></Route>
           <Route path='movie-details-2' element={<MovieDetails2 />}></Route>
           <Route path='movie-ticket-plan' element={<MovieTicketPlan />}></Route>
+          <Route path='movie-seat-plan' element={<MovieSeatPlan />}></Route>
+          <Route path='movie-checkout' element={<MovieCheckout />}></Route>
+          <Route path='popcorn' element={<PopCorn />}></Route>
+          <Route path='about' element={<About />}></Route>
         </Route>
         <Route path='/sign-in' element={<SignIn />}></Route>
         <Route path='/sign-up' element={<SignUp />}></Route>

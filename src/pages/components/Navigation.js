@@ -50,43 +50,6 @@ const Navegation = () => {
             </ul>
           </li>
           <li>
-            <a href="/#0">events</a>
-            <ul className="submenu">
-              <li>
-                <a href="/events">Events</a>
-              </li>
-              <li>
-                <Link to="/event-details">Event Details</Link>
-              </li>
-              <li>
-                <Link to="/event-speaker">Event Speaker</Link>
-              </li>
-              <li>
-                <Link to="/event-ticket">Event Ticket</Link>
-              </li>
-              <li>
-                <Link to="/event-checkout">Event Checkout</Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="/#0">sports</a>
-            <ul className="submenu">
-              <li>
-                <Link to="/sports">Sports</Link>
-              </li>
-              <li>
-                <Link to="/sport-details">Sport Details</Link>
-              </li>
-              <li>
-                <Link to="/sports-ticket">Sport Ticket</Link>
-              </li>
-              <li>
-                <Link to="/sports-checkout">Sport Checkout</Link>
-              </li>
-            </ul>
-          </li>
-          <li>
             <a href="/#0">pages</a>
             <ul className="submenu">
               <li>
@@ -106,17 +69,7 @@ const Navegation = () => {
               </li>
             </ul>
           </li>
-          <li>
-            <a href="/#0">blog</a>
-            <ul className="submenu">
-              <li>
-                <Link to="/blog">Blog</Link>
-              </li>
-              <li>
-                <Link to="/blog-details">Blog Single</Link>
-              </li>
-            </ul>
-          </li>
+          
           <li>
             <Link to="/contact">contact</Link>
           </li>

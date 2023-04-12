@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -25,12 +26,12 @@ const Footer = () => {
           <div className="container">
             <div className="footer-top">
               <div className="logo">
-                <a href="index-1.html">
+                <Link to="/">
                   <img
                     src="assets/images/footer/footer-logo.png"
                     alt="footer"
                   />
-                </a>
+                </Link>
               </div>
               <ul className="social-icons">
                 <li>
@@ -54,9 +55,9 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#0">
+                  <Link to="">
                     <i className="fab fa-instagram" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
